@@ -1,0 +1,134 @@
+Last login: Sat Oct 28 08:56:44 on console
+valeriogestri@iMac-di-Valerio ~ % source /Users/valeriogestri/Desktop/DocentiAI/Docenti_ai/bin/activate
+
+(Docenti_ai) valeriogestri@iMac-di-Valerio ~ % pip install Flask openai
+
+Requirement already satisfied: Flask in ./Desktop/DocentiAI/Docenti_ai/lib/python3.11/site-packages (3.0.0)
+Requirement already satisfied: openai in ./Desktop/DocentiAI/Docenti_ai/lib/python3.11/site-packages (0.28.1)
+Requirement already satisfied: Werkzeug>=3.0.0 in ./Desktop/DocentiAI/Docenti_ai/lib/python3.11/site-packages (from Flask) (3.0.0)
+Requirement already satisfied: Jinja2>=3.1.2 in ./Desktop/DocentiAI/Docenti_ai/lib/python3.11/site-packages (from Flask) (3.1.2)
+Requirement already satisfied: itsdangerous>=2.1.2 in ./Desktop/DocentiAI/Docenti_ai/lib/python3.11/site-packages (from Flask) (2.1.2)
+Requirement already satisfied: click>=8.1.3 in ./Desktop/DocentiAI/Docenti_ai/lib/python3.11/site-packages (from Flask) (8.1.7)
+Requirement already satisfied: blinker>=1.6.2 in ./Desktop/DocentiAI/Docenti_ai/lib/python3.11/site-packages (from Flask) (1.6.3)
+Requirement already satisfied: requests>=2.20 in ./Desktop/DocentiAI/Docenti_ai/lib/python3.11/site-packages (from openai) (2.31.0)
+Requirement already satisfied: tqdm in ./Desktop/DocentiAI/Docenti_ai/lib/python3.11/site-packages (from openai) (4.66.1)
+Requirement already satisfied: aiohttp in ./Desktop/DocentiAI/Docenti_ai/lib/python3.11/site-packages (from openai) (3.8.6)
+Requirement already satisfied: MarkupSafe>=2.0 in ./Desktop/DocentiAI/Docenti_ai/lib/python3.11/site-packages (from Jinja2>=3.1.2->Flask) (2.1.3)
+Requirement already satisfied: charset-normalizer<4,>=2 in ./Desktop/DocentiAI/Docenti_ai/lib/python3.11/site-packages (from requests>=2.20->openai) (3.3.1)
+Requirement already satisfied: idna<4,>=2.5 in ./Desktop/DocentiAI/Docenti_ai/lib/python3.11/site-packages (from requests>=2.20->openai) (3.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in ./Desktop/DocentiAI/Docenti_ai/lib/python3.11/site-packages (from requests>=2.20->openai) (2.0.7)
+Requirement already satisfied: certifi>=2017.4.17 in ./Desktop/DocentiAI/Docenti_ai/lib/python3.11/site-packages (from requests>=2.20->openai) (2023.7.22)
+Requirement already satisfied: attrs>=17.3.0 in ./Desktop/DocentiAI/Docenti_ai/lib/python3.11/site-packages (from aiohttp->openai) (23.1.0)
+Requirement already satisfied: multidict<7.0,>=4.5 in ./Desktop/DocentiAI/Docenti_ai/lib/python3.11/site-packages (from aiohttp->openai) (6.0.4)
+Requirement already satisfied: async-timeout<5.0,>=4.0.0a3 in ./Desktop/DocentiAI/Docenti_ai/lib/python3.11/site-packages (from aiohttp->openai) (4.0.3)
+Requirement already satisfied: yarl<2.0,>=1.0 in ./Desktop/DocentiAI/Docenti_ai/lib/python3.11/site-packages (from aiohttp->openai) (1.9.2)
+Requirement already satisfied: frozenlist>=1.1.1 in ./Desktop/DocentiAI/Docenti_ai/lib/python3.11/site-packages (from aiohttp->openai) (1.4.0)
+Requirement already satisfied: aiosignal>=1.1.2 in ./Desktop/DocentiAI/Docenti_ai/lib/python3.11/site-packages (from aiohttp->openai) (1.3.1)
+
+[notice] A new release of pip is available: 23.2.1 -> 23.3.1
+[notice] To update, run: pip install --upgrade pip
+(Docenti_ai) valeriogestri@iMac-di-Valerio ~ % touch app.py
+
+(Docenti_ai) valeriogestri@iMac-di-Valerio ~ % nano app.py
+
+(Docenti_ai) valeriogestri@iMac-di-Valerio ~ % mkdir templates
+
+(Docenti_ai) valeriogestri@iMac-di-Valerio ~ % cd /path/to/directory
+
+cd: no such file or directory: /path/to/directory
+(Docenti_ai) valeriogestri@iMac-di-Valerio ~ % cd /Users/valeriogestri/Desktop/DocentiAI/
+
+(Docenti_ai) valeriogestri@iMac-di-Valerio DocentiAI % ls templates
+
+index.html
+(Docenti_ai) valeriogestri@iMac-di-Valerio DocentiAI % nano templates/index.html 
+
+(Docenti_ai) valeriogestri@iMac-di-Valerio DocentiAI % python app.py
+
+  File "/Users/valeriogestri/Desktop/DocentiAI/app.py", line 17
+    ChatGPT
+IndentationError: expected an indented block after 'try' statement on line 15
+(Docenti_ai) valeriogestri@iMac-di-Valerio DocentiAI % nano templates/index.html 
+
+(Docenti_ai) valeriogestri@iMac-di-Valerio DocentiAI % python app.py
+
+  File "/Users/valeriogestri/Desktop/DocentiAI/app.py", line 17
+    ChatGPT
+IndentationError: expected an indented block after 'try' statement on line 15
+(Docenti_ai) valeriogestri@iMac-di-Valerio DocentiAI % nano /Users/valeriogestri/Desktop/DocentiAI/app.py
+
+(Docenti_ai) valeriogestri@iMac-di-Valerio DocentiAI % python app.py
+
+  File "/Users/valeriogestri/Desktop/DocentiAI/app.py", line 17
+    ChatGPT
+IndentationError: expected an indented block after 'try' statement on line 15
+(Docenti_ai) valeriogestri@iMac-di-Valerio DocentiAI % nano /Users/valeriogestri/Desktop/DocentiAI/app.py
+
+(Docenti_ai) valeriogestri@iMac-di-Valerio DocentiAI % python app.py
+  File "/Users/valeriogestri/Desktop/DocentiAI/app.py", line 17
+    response = openai.Completion.create(
+IndentationError: expected an indented block after 'try' statement on line 15
+(Docenti_ai) valeriogestri@iMac-di-Valerio DocentiAI % python3 app.py
+  File "/Users/valeriogestri/Desktop/DocentiAI/app.py", line 17
+    response = openai.Completion.create(
+IndentationError: expected an indented block after 'try' statement on line 15
+(Docenti_ai) valeriogestri@iMac-di-Valerio DocentiAI % nano /Users/valeriogestri/Desktop/DocentiAI/app.py
+
+(Docenti_ai) valeriogestri@iMac-di-Valerio DocentiAI % python app.py
+  File "/Users/valeriogestri/Desktop/DocentiAI/app.py", line 29
+    return render_template('index.html', risposta=risposta)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: 'return' outside function
+(Docenti_ai) valeriogestri@iMac-di-Valerio DocentiAI % nano /Users/valeriogestri/Desktop/DocentiAI/app.py
+
+(Docenti_ai) valeriogestri@iMac-di-Valerio DocentiAI % python app.py
+
+  File "/Users/valeriogestri/Desktop/DocentiAI/app.py", line 28
+    return render_template('index.html', risposta=risposta)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: 'return' outside function
+(Docenti_ai) valeriogestri@iMac-di-Valerio DocentiAI % python app.py
+
+  File "/Users/valeriogestri/Desktop/DocentiAI/app.py", line 28
+    return render_template('index.html', risposta=risposta)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: 'return' outside function
+(Docenti_ai) valeriogestri@iMac-di-Valerio DocentiAI % nano /Users/valeriogestri/Desktop/DocentiAI/app.py
+
+(Docenti_ai) valeriogestri@iMac-di-Valerio DocentiAI % python app.py
+  File "/Users/valeriogestri/Desktop/DocentiAI/app.py", line 28
+    return render_template('index.html', risposta=risposta)
+IndentationError: unexpected indent
+(Docenti_ai) valeriogestri@iMac-di-Valerio DocentiAI % nano /Users/valeriogestri/Desktop/DocentiAI/app.py
+
+(Docenti_ai) valeriogestri@iMac-di-Valerio DocentiAI % python app.py
+  File "/Users/valeriogestri/Desktop/DocentiAI/app.py", line 28
+    return render_template('index.html', risposta=risposta)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: 'return' outside function
+(Docenti_ai) valeriogestri@iMac-di-Valerio DocentiAI % nano /Users/valeriogestri/Desktop/DocentiAI/app.py
+
+(Docenti_ai) valeriogestri@iMac-di-Valerio DocentiAI % python app.py
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 949-794-075
+127.0.0.1 - - [28/Oct/2023 10:30:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2023 10:30:30] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [28/Oct/2023 10:31:05] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2023 10:40:53] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2023 10:41:14] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2023 10:41:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2023 10:41:55] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2023 10:48:04] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2023 10:48:17] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2023 10:48:20] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2023 10:48:22] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2023 10:48:22] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2023 10:49:14] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [28/Oct/2023 10:51:30] "POST / HTTP/1.1" 200 -
+
